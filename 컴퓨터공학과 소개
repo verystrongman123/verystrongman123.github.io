@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컴퓨터공학과 소개</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .faculty, .courses {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            flex: 1 1 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>컴퓨터공학과 홈페이지</h1>
+    </header>
+
+    <nav>
+        <a href="#about">소개</a>
+        <a href="#faculty">교수진</a>
+        <a href="#courses">강의</a>
+        <a href="#contact">문의</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>학과 소개</h2>
+            <p>컴퓨터공학과는 소프트웨어, 하드웨어, 인공지능, 데이터 과학 등 다양한 분야를 연구하고 교육합니다. 창의적 문제 해결 능력과 최신 기술 역량을 갖춘 인재를 양성하는 것을 목표로 합니다.</p>
+        </section>
+
+        <section id="faculty">
+            <h2>교수진</h2>
+            <div class="faculty">
+                <div class="card">
+                    <h3>홍길동 교수</h3>
+                    <p>인공지능, 머신러닝 연구</p>
+                </div>
+                <div class="card">
+                    <h3>김철수 교수</h3>
+                    <p>컴퓨터 구조, 임베디드 시스템</p>
+                </div>
+                <div class="card">
+                    <h3>이영희 교수</h3>
+                    <p>데이터베이스, 빅데이터 분석</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses">
+            <h2>주요 강의</h2>
+            <div class="courses">
+                <div class="card">
+                    <h3>프로그래밍 기초</h3>
+                    <p>Python과 C언어를 통한 기초 프로그래밍 교육</p>
+                </div>
+                <div class="card">
+                    <h3>자료구조</h3>
+                    <p>효율적인 데이터 처리와 알고리즘 설계</p>
+                </div>
+                <div class="card">
+                    <h3>인공지능</h3>
+                    <p>머신러닝과 딥러닝 기초 및 응용</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>문의</h2>
+            <p>이메일: csdept@example.edu</p>
+            <p>전화: 02-123-4567</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 컴퓨터공학과
+    </footer>
+</body>
+</html>
